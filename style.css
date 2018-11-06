@@ -1,0 +1,237 @@
+:root{
+	font-size: 16px;
+};
+
+html,body{
+	max-width: 100%;
+}
+
+
+/*.jumbotron-background-img{
+			background-image: url(students.jpeg);
+			background-size: cover;
+			
+		}
+*/
+.display-4 {
+	
+	padding-bottom: 2vh;
+	padding-top: 15vh;
+	font-weight: bold;
+	font-size: 4.5rem;
+
+}
+
+
+
+.text-primary{
+	color: #800080 !important;
+	padding-bottom: 10vh;
+}
+.sub-heading{
+	padding-top:5vh;
+	padding-bottom: 10px;
+	color:  #800080; 
+	font-family: 'Roboto Slab', serif;
+	font-size: 3.2rem;
+	 
+}
+
+.navbar-brand{
+	font-size: 2rem;
+	font-family: 'Mali', cursive;
+}
+
+.nav-link, .dropdown-item{
+	font-size: 1.8rem;
+	font-family: 'Mali', cursive;
+}
+
+.jumbo-custom{
+	height: 100vh; 
+	padding-top:20vh;
+	padding-bottom: 10vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+
+	background-image: url(pics/students.jpeg); 
+	background-size: cover;
+	background-position: right center;
+	
+	 
+}
+
+
+
+.club-row{
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+}
+
+.club-row-title{
+	padding-top: 6vh;
+	padding-bottom: 3vh;
+	font-family: 'Mali', cursive;
+	color: #2D1142; 
+	font-size: 3rem;
+}
+
+
+
+
+#about{
+	padding-top: 12vh;
+	padding-bottom: 9vh;
+
+
+}
+
+.about-title{
+	padding-top: 1vh;
+	padding-bottom: 3vh;
+	font-family: 'Mali', cursive;
+	color: #2D1142;
+	font-size: 3rem; 
+
+}
+
+.about-body{
+	font-family: 'Montserrat', sans-serif;
+	color: #1C1866 ;
+	font-size: 1.8rem;
+}
+
+.card-img-top{
+	max-height:24vh;
+	max-width:27vw;
+	padding-top:  5vh;
+	padding-left: 5vw;
+}
+
+
+
+
+
+.my-card-color{
+	color: #1C1866;
+	max-width:33vw;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 1.8rem;
+}
+
+.find-more-button{
+		font-size: 1.8rem;
+	}
+
+
+
+.card-title{
+	font-size: 2.4rem;
+	color:  #e86209; 
+}
+.myfooter{
+	background-color: #343a40;
+}
+
+.footer-logo{
+	max-width: 40vw;
+	max-height: 30vh;
+
+}
+
+#address, #phone, #mail{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.fa {
+  padding: 0.2rem;
+  font-size: 2rem;
+  width: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+    color: white;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+.footer-icon:hover{
+	cursor: pointer;
+
+}
+
+.footer-column{
+	padding-top: 5vh;
+}
+
+@media only screen and ( max-width: 1080px){
+
+	.my-card-color{
+	
+		max-width:80vw;
+		font-size: 2.2rem;
+
+	
+	}
+
+	.about-body{
+		font-size: 2.2rem;
+	}
+
+	.about-title, .club-row-title{
+		font-size: 3.4rem; 
+	}
+
+	.display-4 {
+	
+		padding-top: 10vh;
+	    font-weight: lighter;
+
+	}
+
+	
+	.card-img-top{
+        max-height:24vh;
+		max-width:60vw;
+
+	}	
+		
+
+	.footer-column{
+		padding-left: 15vw;
+		font-size: 1.8rem;
+
+	}
+
+	.footer-icon, .social-media{
+		padding-left: 12vw;
+	}
+
+	.find-more-button{
+		font-size: 2.2rem;
+	}
+	
+
+
+}
